@@ -1,5 +1,6 @@
 .baymax-central {
 	position: relative;
+	top: 200px;
 	width: 126px;
 	height: 180px;
 	margin: 50px auto;
@@ -344,6 +345,8 @@
 }
 
 p{
+	position: relative;
+	top: 80px;
 	color: orangered; 
 	font-family: "Courier";
 	font-size: 20px;
