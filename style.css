@@ -384,6 +384,18 @@ span{
 	background: black;
   }
 
-.baymax-heart:hover{
-	background: mediumspringgreen;
+.baymax-heart{
+	animation: beat 2s ease-in-out 0s infinite;
+}
+
+@keyframes beat{
+	0%{
+		background-color: whitesmoke;
+	}
+	50%{
+		background-color: #90ee90;
+	}
+	100%{
+		background-color: whitesmoke;
+	}
 }
