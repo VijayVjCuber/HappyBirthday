@@ -117,6 +117,19 @@
   .baymax-head .baymax-eyes:after {
 	right: -2px;
   }
+
+  .baymax-head .baymax-eyes:before,.baymax-head .baymax-eyes:after{
+        animation:eyeblink 2s linear 4s;
+  }
+
+  @keyframes eyeblink{
+         0%{height: 6px; top:-3px;}
+         25%{height: 1px; top:0px;}
+         50%{height: 6px; top:-3px;}
+         75%{height: 1px; top:0px;}
+         100%{height: 6px; top:-3px;}
+  }
+
   .baymax-head .baymax-highlight {
 	position: absolute;
 	top: 12%;
