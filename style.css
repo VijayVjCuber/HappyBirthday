@@ -412,3 +412,8 @@ span{
 		background-color: whitesmoke;
 	}
 }
+
+.bottom{
+	position: fixed;
+	top: 90vh;
+}
